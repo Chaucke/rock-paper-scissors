@@ -4,8 +4,7 @@ print("rock=1\n"+"scissor=2\n"+"Paper=3")
 print("Close the game=30")
 while True:
     choice_player=int(input())
-    #choice2_pc=random.randint(1,3)
-    choice2_pc =3
+    choice2_pc=random.randint(1,3)
     if choice_player==30:
         break
 
